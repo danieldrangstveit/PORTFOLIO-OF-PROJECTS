@@ -1,0 +1,1005 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Data_Integration_Assignment|||select dmdrangs_2113318.dbo.CUSTOMER_DATA.* 
+from dmdrangs_2113318.dbo.CUSTOMER_DATA</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Retrieve CUSTOMER_DATA table from SQL</AnnotationText>
+          <DefaultAnnotationText>aka:Data_Integration_Assignment
+Query=select dmdrangs_2113318.dbo....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer" size="12" source="File: aka:Data_Integration_Assignment|||select dmdrangs_2113318.dbo.CUSTOMER_DATA.* &#xA;from dmdrangs_2113318.dbo.CUSTOMER_DATA" type="V_String" />
+            <Field name="SSN" size="15" source="File: aka:Data_Integration_Assignment|||select dmdrangs_2113318.dbo.CUSTOMER_DATA.* &#xA;from dmdrangs_2113318.dbo.CUSTOMER_DATA" type="V_String" />
+            <Field name="Birthdate" size="20" source="File: aka:Data_Integration_Assignment|||select dmdrangs_2113318.dbo.CUSTOMER_DATA.* &#xA;from dmdrangs_2113318.dbo.CUSTOMER_DATA" type="V_String" />
+            <Field name="Age" source="File: aka:Data_Integration_Assignment|||select dmdrangs_2113318.dbo.CUSTOMER_DATA.* &#xA;from dmdrangs_2113318.dbo.CUSTOMER_DATA" type="Int32" />
+            <Field name="Region" size="20" source="File: aka:Data_Integration_Assignment|||select dmdrangs_2113318.dbo.CUSTOMER_DATA.* &#xA;from dmdrangs_2113318.dbo.CUSTOMER_DATA" type="V_String" />
+            <Field name="RegionCode" source="File: aka:Data_Integration_Assignment|||select dmdrangs_2113318.dbo.CUSTOMER_DATA.* &#xA;from dmdrangs_2113318.dbo.CUSTOMER_DATA" type="Int16" />
+            <Field name="CredCardUser" source="File: aka:Data_Integration_Assignment|||select dmdrangs_2113318.dbo.CUSTOMER_DATA.* &#xA;from dmdrangs_2113318.dbo.CUSTOMER_DATA" type="Bool" />
+            <Field name="Income" scale="0" size="20" source="File: aka:Data_Integration_Assignment|||select dmdrangs_2113318.dbo.CUSTOMER_DATA.* &#xA;from dmdrangs_2113318.dbo.CUSTOMER_DATA" type="FixedDecimal" />
+            <Field name="Purchases" source="File: aka:Data_Integration_Assignment|||select dmdrangs_2113318.dbo.CUSTOMER_DATA.* &#xA;from dmdrangs_2113318.dbo.CUSTOMER_DATA" type="Int32" />
+            <Field name="AmtSpent" scale="0" size="20" source="File: aka:Data_Integration_Assignment|||select dmdrangs_2113318.dbo.CUSTOMER_DATA.* &#xA;from dmdrangs_2113318.dbo.CUSTOMER_DATA" type="FixedDecimal" />
+            <Field name="CustomerType" size="3" source="File: aka:Data_Integration_Assignment|||select dmdrangs_2113318.dbo.CUSTOMER_DATA.* &#xA;from dmdrangs_2113318.dbo.CUSTOMER_DATA" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="186" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">Customer=True,SSN=True,Birthdate=True,Age=True,Region=True,RegionCode=True,CredCardUser=True,Income=True,Purchases=True,AmtSpent=True,CustomerType=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Learn about data the fields</AnnotationText>
+          <DefaultAnnotationText>Learn about data the fields</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmdrangs\AppData\Local\Temp\6\Engine_432_cae63dc2619341fdbbbbd5b54915c507_\Engine_8288_61bc9924aeb7447491d71e972f556d65_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Examine reports about the CUSTOMER_DATA</AnnotationText>
+          <DefaultAnnotationText>Examine reports about the CUSTOMER_DATA</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="318" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmdrangs\AppData\Local\Temp\6\Engine_432_cae63dc2619341fdbbbbd5b54915c507_\Engine_8288_61e733e3ced44878ac93acc91980ff40_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Interactive representation of CUSTOMER_DATA attributes</AnnotationText>
+          <DefaultAnnotationText>Interactive representation of CUSTOMER_DATA attributes</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmdrangs\AppData\Local\Temp\6\Engine_432_cae63dc2619341fdbbbbd5b54915c507_\Engine_8288_0c8b5205a6474a8bafe447e52dbd7191_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Examine CUSTOMER_DATA</AnnotationText>
+          <DefaultAnnotationText>Examine CUSTOMER_DATA</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="174" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Birthdate</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>Birthdate_Clean</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Convert Birthdate_Clean to correct data type</AnnotationText>
+          <DefaultAnnotationText>Convert Birthdate From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="282" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Birthdate_Clean" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Sort Birthdate_Clean by Descending</AnnotationText>
+          <DefaultAnnotationText>Birthdate_Clean - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="378" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Birthdate_Clean] &gt; DateTimeNow() &#xA;	THEN DateTimeAdd([Birthdate_Clean],-100,&quot;Year&quot;)&#xA;ELSE [Birthdate_Clean] &#xA;ENDIF" field="Birthdate_Clean" size="10" type="Date" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Fix future birth dates in Birthdate_Clean column</AnnotationText>
+          <DefaultAnnotationText>Birthdate_Clean = IF [Birthdate_Clean] &gt; DateTimeNow() 
+	THEN DateTimeAdd([Birth...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="486" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Birthdate" selected="False" />
+            <SelectField field="Birthdate_Clean" selected="True" rename="Birthdate" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Rename Birthdate_Clean to Birthdate and remove the old Birthdate column</AnnotationText>
+          <DefaultAnnotationText>Rename Birthdate_Clean as Birthdate and remove the old Birthdate column</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="594" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeDiff(DateTimeNow(),[Birthdate],&quot;Year&quot;)" field="ActualAge" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Calculate the age of customers as of today</AnnotationText>
+          <DefaultAnnotationText><![CDATA[ActualAge = DateTimeDiff(DateTimeNow(),[Birthdate],"Year")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="702" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Age" selected="False" />
+            <SelectField field="ActualAge" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Remove Age and Update ActualAge Type to Int32</AnnotationText>
+          <DefaultAnnotationText>Remove Age and Update ActualAge</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="822" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Region" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Show unique values of the Region column</AnnotationText>
+          <DefaultAnnotationText>Show unique values of the Region column</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="822" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Switch([RegionCode],Null(),1,&quot;Midwest&quot;,2,&quot;NorthEast&quot;,3,&quot;South&quot;,4,&quot;West&quot;,5,&quot;Alaska&quot;)" field="Region_Clean" size="20" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Create a Region_Clean column that aids in representational consistency for Region values</AnnotationText>
+          <DefaultAnnotationText>Region_Clean = Switch([RegionCode],Null(),1,"Midwest",2,"NorthEast",3,"South",4,...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="930" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Region" selected="False" />
+            <SelectField field="Region_Clean" selected="True" rename="Region" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Remove old Region column and rename Region_Clean to Region</AnnotationText>
+          <DefaultAnnotationText>Remove old Region column and rename Region_Clease to Region</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1038" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Income]==999&#xA;	THEN Null() &#xA;ELSE [Income] &#xA;ENDIF" field="Income" size="20.0" type="FixedDecimal" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Converts 999 to Null in Income column</AnnotationText>
+          <DefaultAnnotationText><![CDATA[Income = IF [Income]==999
+	THEN Null() 
+ELSE [Income] 
+ENDIF
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1146" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Purchases]==999&#xA;	THEN Null() &#xA;ELSEIF [AmtSpent]==0 AND [Purchases]!=0&#xA;	THEN [Purchases]==0 &#xA;ELSE [Purchases]&#xA;ENDIF" field="Purchases" size="4" type="Int32" />
+            <FormulaField expression="IF IsEmpty([AmtSpent])&#xA;	THEN Null() &#xA;ELSEIF [Purchases]==0 AND [AmtSpent]!=0&#xA;	THEN [AmtSpent]==0 &#xA;ELSE [AmtSpent]&#xA;ENDIF" field="AmtSpent" size="20.0" type="FixedDecimal" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Cleans both Purchases and AmtSpent columns (2 formulas)</AnnotationText>
+          <DefaultAnnotationText>Purchases = IF [Purchases]==999
+	THEN Null() 
+ELSEIF [AmtSpent]==0 AND [Purchase...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1206" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="CustomerType" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Show unique values of the CustomerType column</AnnotationText>
+          <DefaultAnnotationText>Show unique values of the CustomerType column</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1242" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Switch([CustomerType],Null(),&quot;1&quot;,1,&quot;2&quot;,2,&quot;R&quot;,1,&quot;C&quot;,2)" field="CustomerType" size="3" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Clean CustomerType column to output 1, 2, or Null</AnnotationText>
+          <DefaultAnnotationText><![CDATA[CustomerType = Switch([CustomerType],Null(),"1",1,"2",2,"R",1,"C",2)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1350" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CustomerType" selected="True" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Update CustomerType's data type to Int16</AnnotationText>
+          <DefaultAnnotationText>Update CustomerType's data type to Int16</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings>
+        <Position x="1482" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"SSN"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Removes all dash (-) and underscore (_) from SSN column</AnnotationText>
+          <DefaultAnnotationText>Removes all dash (-) and underscore (_) from SSN column</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1590" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF Length([SSN])!=9&#xA;	THEN Null()&#xA;ELSE [SSN]&#xA;ENDIF" field="SSN" size="15" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Only 9 digit SSN are valid, otherwise Null</AnnotationText>
+          <DefaultAnnotationText><![CDATA[SSN = IF Length([SSN])!=9
+	THEN Null()
+ELSE [SSN]
+ENDIF
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1902" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\Client\C$\Users\danie\Documents\C533_Data_Warehousing\Alteryx\HW Assignment\Customer Phone Numbers.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Import customer phone numbers</AnnotationText>
+          <DefaultAnnotationText>Customer Phone Numbers.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer" source="File: \\Client\C$\Users\danie\Documents\C533_Data_Warehousing\Alteryx\HW Assignment\Customer Phone Numbers.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Phone" size="255" source="File: \\Client\C$\Users\danie\Documents\C533_Data_Warehousing\Alteryx\HW Assignment\Customer Phone Numbers.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2010" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmdrangs\AppData\Local\Temp\6\Engine_432_cae63dc2619341fdbbbbd5b54915c507_\Engine_8288_210131a47c364ba9a95c560bcb16669f_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Examine Customer Phone Numbers.xlsx</AnnotationText>
+          <DefaultAnnotationText>Examine Customer Phone Numbers.xlsx</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2022" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Customer" selected="True" type="V_String" size="12" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Converts Customer to type V_String before Join</AnnotationText>
+          <DefaultAnnotationText>Converts Customer to type V_String</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2178" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Customer" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Customer" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Customer" selected="True" rename="Right_Customer" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Join the two data sets</AnnotationText>
+          <DefaultAnnotationText>Join the two data sets</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2322" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Customer" selected="True" />
+            <SelectField field="SSN" selected="True" />
+            <SelectField field="Birthdate" selected="True" />
+            <SelectField field="ActualAge" selected="True" />
+            <SelectField field="Region" selected="True" />
+            <SelectField field="RegionCode" selected="True" />
+            <SelectField field="Right_Customer" selected="False" />
+            <SelectField field="CredCardUser" selected="True" />
+            <SelectField field="Income" selected="True" />
+            <SelectField field="Purchases" selected="True" />
+            <SelectField field="AmtSpent" selected="True" />
+            <SelectField field="CustomerType" selected="True" />
+            <SelectField field="Phone" selected="True" />
+            <SelectField field="Right_SSN" selected="False" />
+            <SelectField field="Count" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Include only relevant columns of data and fix data types</AnnotationText>
+          <DefaultAnnotationText>Include only relevant columns of data and fix data types</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2466" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">\\Client\C$\Users\danie\Documents\C533_Data_Warehousing\Alteryx\HW Assignment\Customer_Data_Cleaned.xlsx|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Export cleaned data to filename: Customer_Data_Cleaned.xlsx</AnnotationText>
+          <DefaultAnnotationText>Customer_Data_Cleaned.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings>
+        <Position x="2454" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">Customer=True,SSN=True,Birthdate=True,ActualAge=True,Region=True,RegionCode=True,CredCardUser=True,Income=True,Purchases=True,AmtSpent=True,CustomerType=True,Phone=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Examine cleaned data fields</AnnotationText>
+          <DefaultAnnotationText>Examine cleaned data fields</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2610" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmdrangs\AppData\Local\Temp\6\Engine_432_cae63dc2619341fdbbbbd5b54915c507_\Engine_8288_b2ab42210c2a45228a2aac41fabe50a9_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Examine the cleaned CUSTOMER_DATA reports</AnnotationText>
+          <DefaultAnnotationText>Examine the cleaned CUSTOMER_DATA reports</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2622" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dmdrangs\AppData\Local\Temp\6\Engine_432_cae63dc2619341fdbbbbd5b54915c507_\Engine_8288_8b319e3d2123454f943cf51a05b4de84_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Interactive representation of cleaned CUSTOMER_DATA attributes</AnnotationText>
+          <DefaultAnnotationText>Interactive representation of cleaned CUSTOMER_DATA attributes</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1770" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="SSN" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="SSN" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_SSN" selected="True" rename="Right_SSN" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Joins the original SSN and Summarize SSN and also adds a column named "Count" ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Joins the ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1674" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="SSN" action="GroupBy" rename="SSN" />
+            <SummarizeField field="SSN" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Returns all unique values of SSN column and their respective counts.</AnnotationText>
+          <DefaultAnnotationText><![CDATA[Summarize ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1890" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Count]&gt;1 AND [SSN]!=Null()&#xA;	THEN Null()&#xA;ELSE&#xA;	[SSN]&#xA;ENDIF" field="SSN" size="15" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Set all the duplicate SSN to be Null assuming you can't tell which one is correct</AnnotationText>
+          <DefaultAnnotationText><![CDATA[SSN = IF [Count]>1 AND [SSN]!=Null()
+	THEN Null()
+ELSE
+	[SSN]
+ENDIF
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Reports" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Interactive" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output26" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="39" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="39" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="33" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Join" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="36" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Reports" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Interactive" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Join" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DrangstveitDanielRussellRhyan</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
