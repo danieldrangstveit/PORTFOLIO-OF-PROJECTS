@@ -41,4 +41,20 @@ display my skills for data analyst or business analyst roles. Please read on and
      * The scope of Netflix shows is primarily influenced by content produced in the United States though India is attempting to catch up
      * Netflix has transformed into a globally popular streaming service and pop culture maker
 * **File:**
-     * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Tableau_Projects/Netflix_Pre-COVID_Growth.twbx) to download the raw file
+     * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Tableau_Projects/Netflix_Pre-COVID_Growth.twbx) to download the Tableau Packaged Workbook
+
+### Python - Using Statistics to Determine the Best Contact and Power Hitters in Major League Baseball (MLB)
+* **Description:**
+     * Used Python to automate the ability to web scrape multiple webpages pulled from a data source (mlb.com/stats). Specifically, the created function extracted specified categorical and numerical data into a two-dimensional array. This was then ingested into a pandas DataFrame where I added specific columns calculating batting average and slugging percentage z-scores. The z-scores were plotted and the best power hitter and contact hitter were identified from the dataset.
+* **Core Skills:**
+     * Regular Expression
+     * Numpy
+     * Pandas
+     * Matplotlib.pyplot
+     * Jupyter Notebook
+* **Findings:**
+     * Slugging percentage is a good indicator of power hitters and batting average is a good indicator of contact hitters
+     * Regex and the ability to automate web scrapping multiple webpages is a powerful way to ingest raw data from most online data sources
+* **File:**
+     * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Python_Projects/MLB_Hitters_Analysis.html) to download the HTML file
+     * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Python_Projects/MLB_Hitters_Analysis.ipynb) to download the Interactive Python Notebook file
