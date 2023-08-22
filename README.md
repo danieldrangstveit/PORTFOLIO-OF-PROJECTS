@@ -55,9 +55,9 @@ display my skills for data analyst or business analyst roles. Please read on and
      * Statistics
      * Jupyter Notebook
 * **Findings:**
-     * S&P 500 returns are not normally distributed because of the extreme high and low returns (the fat tails). Kurtosis explains that S&P 500 returns have high Kurtosis relative to theoritical returns from a normal distribution.
+     * S&P 500 returns are not normally distributed because of the extreme high and low returns (the fat tails). Kurtosis explains that S&P 500 returns have high Kurtosis relative to theoritical returns from a normal distribution
      * Jarque-Bera test, which combines both Kurtosis and skew further substantiates that S&P 500 returns are not normally distributed. Therefore, we can reject the null hypothesis that S&P 500 returns come from a normal distirbution
-     * Autocorrelations of returns (both S&P 500 and individual stocks) yield a value close to 0 because of the efficient market hypothesis - market prices move in a "random walk".
+     * Autocorrelations of returns (both S&P 500 and individual stocks) yield a value close to 0 because of the efficient market hypothesis - market prices move in a "random walk"
 * **File:**
      * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Python_Projects/S&P_500_and_Equity_Returns.html) to download the HTML file
      * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Python_Projects/S&P_500_and_Equity_Returns.ipynb) to download the Interactive Python Notebook file
@@ -77,3 +77,19 @@ display my skills for data analyst or business analyst roles. Please read on and
 * **File:**
      * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Python_Projects/MLB_Hitters_Analysis.html) to download the HTML file
      * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Python_Projects/MLB_Hitters_Analysis.ipynb) to download the Interactive Python Notebook file
+
+### ERD and Relational Models (Databases) - Airline Company Example
+* **Description:**
+     * Used Lucid Charts to create an ERD and Relational Model for a fictitious Airline Company
+* **Core Skills:**
+     * Cardinalities
+     * Primary and Foreign Keys
+     * Logical structures
+     * Relational databases
+* **Findings:**
+     * ERD and Relational models help provide clarity and visualization of the database structure
+     * Relational models enforce tables with well-defined attributes, eliminating redundancy and ensuring data consistency
+     * Relational databases use constraints such as primary and foreign keys to enforce data integrity rules
+     * Optimizes for querying and retrieving data efficiently using SQL or similar.
+* **File:**
+     * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Database_Projects/Airline_Company_ERD_Relational_Models.pdf) to download the PDF file
