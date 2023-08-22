@@ -13,6 +13,7 @@
 * Python
 * SQL
 * Tableau
+* Alteryx
 * Entity-Relationship Diagram (ERD) and Relational Model for Database Design
 * Data Profiling
 * Data Integration and Preparation
@@ -78,7 +79,7 @@ display my skills for data analyst or business analyst roles. Please read on and
      * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Python_Projects/MLB_Hitters_Analysis.html) to download the HTML file
      * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Python_Projects/MLB_Hitters_Analysis.ipynb) to download the Interactive Python Notebook file
 
-### ERD and Relational Models (Databases) - Airline Company Example
+### Database - ERD and Relational Models for an Airline Company Example
 * **Description:**
      * Used Lucid Charts to create an ERD and Relational Model for a fictitious Airline Company
 * **Core Skills:**
@@ -94,7 +95,7 @@ display my skills for data analyst or business analyst roles. Please read on and
 * **File:**
      * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Database_Projects/Airline_Company_ERD_Relational_Models.pdf) to download the PDF file
 
-### SQL (Databases) - Hospital Example
+### Database - SQL Hospital Example
 * **Description:**
      * Used Microsoft SQL Server Management Studio to perform various queries on a hospital dataset
 * **Core Skills:**
@@ -111,3 +112,22 @@ display my skills for data analyst or business analyst roles. Please read on and
      * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Database_Projects/Hospital_Demo-DDL.sql) to download the Data Definition Language (DDL) SQL file
      * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Database_Projects/Hospital_Demo-DML.sql) to download the Data Manipulation Language (DML) SQL file
      * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Database_Projects/Hospital_Demo_Queries.sql) to download the SQL file, containing 10 queries performed on the database tables
+
+### Alteryx - Customer Data Example
+* **Description:**
+     * Used Alteryx to leverage its powerful data integration capabilities in a simplistic way to combine and prepare data for analysis. The customer data was brought into Alteryx from Microsoft SQL server using the input tool. 
+* **Core Skills:**
+     * Data integration
+     * Data preparation
+     * Advanced analytics
+     * Alteryx
+     * ETL
+     * Microsoft SQL Server Management Studio
+* **Findings:**
+     * Alteryx seamlessly integrates with other tools such as Microsoft SQL Server Management Studio and even visualizations tools like Tableau, enabling a user to streamline the ETL process in preparation of analysis
+     * Alteryx allows one to clean, transform, and enrich data without writing complex code
+* **File:**
+     * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Alteryx_Projects/Customer_Data_Project_Details.pdf) to download the hospital demo assignment details PDF file
+     * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Alteryx_Projects/Customer_Data_for_Integration.sql) to download the combined Data Definition Language (DDL) and Data Manipulation Language (DML) SQL file
+     * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Alteryx_Projects/Customer_Data_Project.yxmd) to download the Alteryx workflow file
+     * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Alteryx_Projects/Customer_Data_Cleaned.xlsx) to download the cleaned customer data Microsoft Excel spreadsheet file
