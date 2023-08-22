@@ -93,3 +93,21 @@ display my skills for data analyst or business analyst roles. Please read on and
      * Optimizes for querying and retrieving data efficiently using SQL or similar.
 * **File:**
      * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Database_Projects/Airline_Company_ERD_Relational_Models.pdf) to download the PDF file
+
+### SQL (Databases) - Hospital Example
+* **Description:**
+     * Used Microsoft SQL Server Management Studio to perform various queries on a hospital dataset
+* **Core Skills:**
+     * DDL and DML
+     * Joins
+     * Subqueries
+     * Aggregate functions
+     * Microsoft SQL Server Management Studio
+* **Findings:**
+     * Learned how to create database tables and insert relevant records
+     * SQL is a fundamental tool in managing and working with relational databases
+* **File:**
+     * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Database_Projects/Hospital_Demo_Database_Diagram.PNG) to download the hospital demo database diagram PNG file
+     * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Database_Projects/Hospital_Demo-DDL.sql) to download the Data Definition Language (DDL) SQL file
+     * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Database_Projects/Hospital_Demo-DML.sql) to download the Data Manipulation Language (DML) SQL file
+     * [Click Here](https://github.com/danieldrangstveit/PORTFOLIO-OF-PROJECTS/blob/main/Database_Projects/Hospital_Demo_Queries.sql) to download the SQL file, containing 10 queries performed on the database tables
